@@ -1,0 +1,73 @@
+5.
+touch shopping_list.txt
+nano shopping_list.txt
+git add shopping_list.txt
+git commit -m "Add 5 items to the shopping list"
+6.
+nano shopping_list.txt
+git add shopping_list.txt
+git commit -m "Add quantities to the items"
+7.
+git branch branch1
+git branch branch2
+8.
+    1  ls -a
+    2  cd Desktop
+    3  cd Finki
+    4  cd SI
+    5  cd Lab1
+    6  git clone https://github.com/BojanChuparko/-SI_2022_lab1_161547.git
+    7  cd Desktop
+    8  cd Finki
+    9  cd Lab1
+   10  cd SI
+   11  cd Lab1
+   12  git clone https://github.com/BojanChuparko/-SI_2022_lab1_161547.git
+   13  git clone https://github.com/BojanChuparko/SI_2022_lab1_161547.git
+   14  ls -a
+   15  cd SI_2022_lab1_161547/
+   16  touch shopping_list.txt
+   17  nano shopping_list.txt
+   18  git add .
+   19  got commit -m "Add 5 items to the shopping list"
+   20  git commit -m "Add 5 items to the shopping list"
+   21  git init
+   22  nano shopping_list.txt
+   23  git commit -m "Add 5 items to the shopping list"
+   24  git config user.name "Bojan"
+   25  git config user.email "bojan.chuparko@students.finki.ukim.mk"
+   26  git commit -m "Add 5 items to the shopping list"
+   27  nano shopping_list.txt
+   28  git add shopping_list.txt
+   29  git commit -m "Add quantities to the items"
+   30  git branch branch1
+   31  git branch branch2
+   32  log
+   33  history
+9.
+git push origin master
+10.
+git checkout branch1
+11.
+nano shopping_list.txt
+git add shopping_list.txt
+git commit -m "Change quantity of item #5"
+12.
+git checkout master
+13.
+nano shopping_list.txt
+git add shopping_list.txt
+git commit -m "Change quantity of item #2"
+14.
+git push origin master
+git push origin branch1
+git push origin branch2
+15.
+git checkout branch2
+22.
+git add 161547.txt
+git commit -m "Add docs"
+23.
+push origin master
+push origin branch1
+push origin branch2
